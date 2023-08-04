@@ -17,6 +17,10 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+p{
+    font-style: italic;
+}
 h2:hover{
     background-color: yellowgreen;
     width:  200px;
