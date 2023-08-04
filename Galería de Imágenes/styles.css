@@ -54,3 +54,7 @@ h2:hover{
     background-color: yellowgreen;
     width:  200px;
 }
+
+p{
+    font-style: italic;
+}
