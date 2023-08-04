@@ -1,19 +1,44 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: white;
 }
 
 .image{
-    border: 5px solid green;
+    margin-left: 34%;
+    border: 5px solid black;
     border-radius: 10px;
-    height: 400px;
+    height: 300px;
 }
+.image:hover {
+    box-shadow: 0px 0px 10px gray;
+    animation: blink 10s infinite linear;
+
+}
+@keyframes blink{
+    0%{
+        border: 5px solid #37BCF9;
+    }
+    25%{
+        border: 5px solid green;
+    }
+    50%{
+        border: 5px solid red;
+    }
+    75%{
+        border: 5px solid pink;
+    }
+    100%{
+        border: 5px solid blue;
+    }
+}
+
+
 
 .link-button {
     text-decoration: none;
     color: black;
     border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
+    background-color: papayawhip;
+    padding: 10px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
@@ -30,4 +55,8 @@ p{
 h2:hover{
     background-color: yellowgreen;
     width:  200px;
+}
+
+p{
+    font-style: italic;
 }
