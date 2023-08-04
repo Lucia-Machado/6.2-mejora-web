@@ -37,14 +37,12 @@ body {
     text-decoration: none;
     color: black;
     border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
+    background-color: papayawhip;
+    padding: 10px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
-}
+    width: 200px;
 
-p{
-    font-style: italic;
 }
 h2:hover{
     background-color: yellowgreen;
